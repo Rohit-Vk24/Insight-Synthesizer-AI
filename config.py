@@ -1,4 +1,3 @@
 
-
-OPENROUTER_API_KEY = "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"  # replace with your key
-MODEL = "deepseek/deepseek-r1-distill-llama-70b:free"
+OPENROUTER_API_KEY = "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"  # replace with your key
+MODEL = "meta-llama/llama-4-maverick:free"

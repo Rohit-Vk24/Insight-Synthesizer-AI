@@ -1,4 +1,4 @@
-
+# ui_renderer.py
 import streamlit as st
 
 def display_insight_cards(insights):
