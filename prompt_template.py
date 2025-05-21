@@ -9,7 +9,7 @@ For each theme, return:
 1. A short title (2-4 words)
 2. 1-12 direct quotes from the responses that support this theme
 3. An overall sentiment: positive, negative, or neutral only one of them
-nothing else just the JSON!!! no extra text
+nothing else just the JSON!!! NO EXTRA TEXT!!!
 
 Survey Responses:
 {json.dumps(responses, indent=2)}
