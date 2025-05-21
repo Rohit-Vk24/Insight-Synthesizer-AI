@@ -1,6 +1,12 @@
-
+# llm_handler.py
 import requests
-from config import OPENROUTER_API_KEY, MODEL
+import streamlit as st
+
+try:
+    OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
+    MODEL = st.secrets["MODEL"]
+except Exception:
+    from config import OPENROUTER_API_KEY, MODEL
 
 def get_insights_from_llm(prompt):
     headers = {
